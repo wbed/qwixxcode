@@ -1,0 +1,28 @@
+==QWIXX RULES==
+
+-Numbers must be crossed out from left to right in each of the four coloured rows.
+-They do not have to be crossed out sequentially, however once you choose a number in
+the row to cross out, you can't go back and cross out number before it in the row.
+
+-The computer will roll the dice, then:
+  -All players may cross out the sum of the two white dice from any one of their coloured rows.
+  -Players do not have to cross out a number if they do not want to.
+  -The active player then adds the sum of one white dice and any one of the coloured dice.
+  -The active player (only) may then cross out that number on the same row as the coloured dice chosen.
+  -The active player does not have to cross out this number if they do not want to.
+
+-If after both actions on the turn, the active player has not crossed out at least one number, they gain one
+penalty point, which reduces their score at the end of the game.
+
+-Locking a row:
+  -A player can lock a row (removing the dice from play) if they have:
+    -Crossed out at least five numbers in the row
+    -AND have crossed out the furthest to the right number.
+
+-Ending a game:
+  -The computer will end the game if:
+    -One player has received four penalty points
+    -OR if two of the dice have been removed from play.
+  -The computer will then add up the scores and decide the winner.
+
+====
